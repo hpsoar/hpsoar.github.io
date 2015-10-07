@@ -43,7 +43,7 @@
 
     <!-- Google Analytics End -->
 
-    <title>关于《自己动手写操作系统》的总结</title>
+    <title>Category: 操作系统</title>
   </head>
 
   <body>
@@ -103,7 +103,22 @@
 
       <article>
 
-<h1>关于《自己动手写操作系统》的总结</h1>
+<ul class="post-list">
+  
+    <li>
+      <div class="post-title">
+        <a href="/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/2015/10/08/test.html"> 关于《自己动手写操作系统》的总结</a> </br>
+      </div>
+
+      <div class="post-info">
+        <ol>
+          <li class="post-time">2015-10-08</li> 
+          <li class="post-category"> 操作系统 </li>
+        </ol>
+      </div>
+
+      <div class="post-preview">
+        <h1>关于《自己动手写操作系统》的总结</h1>
 
 <p>昨天晚上终于完成了《自己动手写操作系统》的最后一部分功能，看着三个控制台上的进程各自运行着，终于舒了一口气。查看了最早的程序，是8月18号的，到现在整整30天。原本以为用10天可以搞定，没想到会用这么久。这本书读起来非常累，尤其是要照着书上写的东西把所有程序自己敲一遍，然后调试，运行，周而复始。虽然只是实现了一个最最最简陋的操作系统，没有文件系统，没有内存管理，没有命令，没有好多，不能像正常系统一样工作，但对于我这样的初学者，即使是完全照抄，还是费了很大的劲，当然，也收获了很多。所以，要总结一下，为这段日子画一个句号。</p>
 
@@ -128,28 +143,18 @@
 <p>在操作系统上，这本书和课上学的操作系统课不一样的地方在于，它首先给了我一个感性的认识，让你觉得操作系统是可以看的到，摸的着的，而不是课堂上抽象出的一些概念。比如进程一章，就真正在操作系统中编写了进程并让它们运行起来。我觉得感性的认识加上理论上的思考才是最有效的学习方式。实践，然后知道不足，去学习理论，然后再实践，然后觉得知识又不够用，然后再学习，这样一个螺旋式上升的过程我觉得应该是有效的。这是在方法上给我的启示。在具体的知识上，主要实现了从CPU加电初始化BIOS，加载引导扇区开始，到加载loader，loader加载kernel,然后kernel设置中断，键盘驱动，初始化进程，然后由进程调度程序调动整个进程运行这一系列的流程。其中还学习了保护模式，GDT，LDT,IDT,8259A等等概念及其运用。但是没有涉及处理机管理，内存管理，文件系统这些东西，在这本书的第二版《Orange&#39;s 一个操作系统的实现》，已经有了这部分功能。</p>
 
 <p>　　说了也不少了，没有想说的了，就作一个下一步的计划吧，下面要重新学习一下C语言和汇编，感觉基础还是不行，然后散着看一点操作系统方面的东西，跟着课学一下理论，好好看看 Operating system concept，理论了解了，可能会看《操作系统：设计与实现》以及Linux的源代码。未来的变数还很大，只能有一个初步的打算了。</p>
+ 
+        <a href="/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/2015/10/08/test.html"> Read More ... </a> </br>
+      </div>
+
+    </li>
+  
+</ul>
 
 
       </article>
 
       <div class="comments">
-        
-          <div id="disqus_thread"></div>
- <script type="text/javascript">
-     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-     var disqus_shortname = 'minixalpha'; // required: replace example with your forum shortname
-
-     /* * * DON'T EDIT BELOW THIS LINE * * */
-     (function() {
-         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-     })();
- </script>
- <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    
-
         
       </div>
 
