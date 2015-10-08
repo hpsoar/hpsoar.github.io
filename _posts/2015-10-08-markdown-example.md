@@ -1,3 +1,10 @@
+---
+layout: default
+title: Markdown Example
+category: Tips
+comments: true
+---
+
 #H1
 ##H2 has a line with it
 ###H3
