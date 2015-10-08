@@ -10,3 +10,4 @@ sitemapurl: "http://hpsoar.github.io"
 
 gems:
   - jemoji
+  - jekyll-mentions
