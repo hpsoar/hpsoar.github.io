@@ -126,10 +126,14 @@ if (isAwesome){
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
+<br/>
+
 First Header  | Second Header
 ------------- | -------------
 Content Cell  | Content Cell
 Content Cell  | Content Cell
+
+<br/>
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
