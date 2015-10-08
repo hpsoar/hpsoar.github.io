@@ -44,10 +44,17 @@ world
 ##Bold & Italic
  
 **bold**
-
-**BOLD**
-
+ 
 *Itialic*
+
+_Italic_
+
+__bold__
+
+**bold _italic_**
+
+#Strikethrough (github only)
+~~Mistaken text~~
 
 ##Link
 [link to Google!](http://google.com)
@@ -109,3 +116,23 @@ if (isAwesome){
 ## emoji (github only)
 
 :sparkles: :camel: :boom:
+
+:bowtie:
+
+## tables
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
