@@ -79,7 +79,7 @@ __bold__
 
 ##Image
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png = 100)
+<img src=https://octodex.github.com/images/yaktocat.png height=150 />
 
 ##Code
 
